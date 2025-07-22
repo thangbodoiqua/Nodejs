@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   // Log the request URL
   console.log('Request URL:', req.url);
   
-  // Log the request method
+  // Log the request methodx
   console.log('Request Method:', req.method);
   
   // Log the request headers
