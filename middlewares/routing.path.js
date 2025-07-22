@@ -11,7 +11,7 @@ Router.route('/')
     res.end('When a GET request is made, then this '
             + 'is the response sent to the client!'); 
 }) 
-.post((req, res, next) => { 
+.post((req, res, next) =>   { 
     res.end('When a POST request is made, then this '
             + 'is the response sent to the client!'); 
 }) 

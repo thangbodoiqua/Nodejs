@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = 1234;
-
+        
 app.use(express.json());
 app.post('/', (req, res)=>{
     const {name} = req.body;
