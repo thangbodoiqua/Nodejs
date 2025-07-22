@@ -5,8 +5,8 @@ const app = express();
 const PORT = 3000;
 
 const path = require('path')
-console.log(path.join(__dirname, '../public'));
-app.use('/static', express.static(path.join(__dirname, '../public')))
+console.log(path.join(__dirname, '../../public'));
+app.use('/static', express.static(path.join(__dirname, '../../public')))
 // thay vì ..../images/1.jpg thì .../static/images/1.jpg
 
 // app.use(express.static(path.join(__dirname, 'public'))) --> .../images/1.jpg 
